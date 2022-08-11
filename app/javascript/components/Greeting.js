@@ -11,9 +11,6 @@ function Greeting() {
   }, []);
 
   const props = useSelector((state) => state.greetingsReducer);
-  console.log("debug::start")
-  console.log(props)
-  console.log("debug::end")
 
   return (
       <>
