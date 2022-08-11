@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import Greeting from "./Greeting";
 import NotFound from "./NotFound";
 import store from '../redux/configureStore';
+import "./App.css";
 
 
 function App() {
